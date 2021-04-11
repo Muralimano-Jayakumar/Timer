@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family-Poppin&display-swap');
+
+body{
+    background-color: rgb(236, 29, 29);
+    font-family: sans-serif;
+    display: flex;
+    margin: 0;
+    height: 100vh;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+p {
+    background-color: white;
+    font-size: 50px;
+    border-radius: 100px;
+    height: 70px;
+    width: 200px;
+    text-align: center;
+    margin: 0;
+
+}
+
+button{
+    color: black;
+    background-color: white;
+    border-radius: 100px;
+    width: 200px;
+    height: 70px;
+    border: none;
+    outline: none;
+    text-align: center;
+    cursor: pointer;
+    font-size: 45px;
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+}
